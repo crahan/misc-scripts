@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #
 # Use this command to connect over SSH:
 # ssh foo@bar -t /server/path/to/irssi_screen.sh

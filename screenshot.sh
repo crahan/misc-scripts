@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # wait before taking screenshot
 # idle="10" 
