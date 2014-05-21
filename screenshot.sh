@@ -93,7 +93,7 @@ echo "done."
 if [ $overlay ]; then
     echo -n "Applying watermark..."
     if [ -e $overlay ]; then		
-        composite -dissolve $dissolve -gravity SouthEast -geometry +25+25 $overlay /tmp/shots/ss.$ext /tmp/shots/$fname.$ext
+        composite -quiet -dissolve $dissolve -gravity SouthEast -geometry +25+25 $overlay /tmp/shots/ss.$ext /tmp/shots/$fname.$ext
         echo "done."
     else
         echo "not found."
